@@ -1,20 +1,8 @@
 from pylab import *
 
-def f(x):
-    y=x**2
-    return y
+x=[2, 2, 12, 12, 2]
+y=[2, 6, 6, 2, 2]
+plot(x, y, 'r')
 
-pas=1
-listex=[]
-listey=[]
-
-for i in range(0, 20):
-    x=-10+i*pas
-    y=f(x)
-    listex.append(x)
-    listey.append(y)
-
-    
-plot(listex, listey, '--*')
 
 show()
