@@ -1,6 +1,10 @@
 from pylab import *
 
-x=[5, 10, 25, 5]
-y=[10, 12, 10, 10]
-plot(x, y, 'r')
+def f(x):
+    y=x**2
+    return y
+
+for i in range(-10, 10):
+    x=i
+    plot(x, f(x), '*')
 show()
