@@ -2,9 +2,9 @@ from pylab import *
 
 from pylab import *
 
-x=[2, 11.5, 20, 2]
-y=[1, 15, 1, 1]
-plot(x, y, 'r')
+y = 2
 
-
+for i in range(5, 15):
+    x=i
+    plot(x, y, 'r*')
 show()
