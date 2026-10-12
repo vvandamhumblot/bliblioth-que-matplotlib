@@ -1,7 +1,9 @@
 from pylab import *
 
-x=[2, 2, 12, 12, 2]
-y=[2, 6, 6, 2, 2]
+from pylab import *
+
+x=[2, 11.5, 20, 2]
+y=[1, 15, 1, 1]
 plot(x, y, 'r')
 
 
