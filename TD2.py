@@ -1,10 +1,8 @@
 from pylab import *
 
-from pylab import *
-
-for i in range(10, 20):
-    y=i
-    for u in range(5, 15):
-        x=u
-        plot(x, y, 'r*')
+x=0
+for u in range(9, 39):
+    x=u
+    y= x+1
+    plot(x, y, 'r*')
 show()
